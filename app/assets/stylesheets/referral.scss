@@ -32,7 +32,7 @@
 }
 
 .steps {
-  padding: 50px 50px 0 50px;
+  padding: 50px 100px 0 100px;
 }
 
 .step-text{
@@ -44,7 +44,7 @@
 
 .referrals {
   padding-bottom: 50px;
-  margin: 0 auto;
+  // margin: 0 auto;
   // font-family:'Rubik', sans-serif;
 }
 
@@ -59,26 +59,23 @@
   p {
     text-align: center;
     font-size: 24px;
-    padding: 0 200px;
+    // padding: 0 200px;
   }
 }
 
 .forward, .refer {
   height: 250px;
-  width: 400px;
+  width: 450px;
   margin: 0 10px;
   background-color: $blue;
   text-align: center;
   .email {
-  padding: 8px;
+  padding: 10px;
   width: 300px;
   }
   h3 {
     color: white;
     padding: 40px;
-  }
-  #email {
-    padding-bottom: 14px;
   }
   .btn-email {
     background-color: $orange;
@@ -102,7 +99,6 @@
   .social-text {
   text-align: center;
   padding: 20px;
-  // font-family: 'Rubik', sans-serif;
   }
 }
 
@@ -123,9 +119,3 @@ text-align: center;
   font-weight: 800;
 }
 
-.container {
-  // margin-right: auto;
-  // margin-left: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-}

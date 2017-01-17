@@ -1,11 +1,13 @@
 // Place all the styles related to the referral controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import  "variables.scss";
+
 .square-grey {
   background-color: lightgrey;
-  height: 200px;
-  width: 200px;
-  margin: 20px;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
   justify-content: center;
 }
 
@@ -14,40 +16,65 @@
   width: 50px;
   border-radius: 50%;
   font-size: 20px;
-  background-color: lightblue;
+  background-color: $blue;
   text-align: center;
   color: white;
-  margin-top: 145px;
-  margin-left: 75px;
+  margin: 195px 105px;
   padding-top: 10px;
 }
 
-.btn-social {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  margin: 10px;
-}
+
 
 .step-text{
   font-size: 20px;
   text-align: center;
+  padding-top: 30px;
+}
+
+.referrals {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .header {
   height: 150px;
   h1 {
   text-align: center;
+  color: $blue;
+  }
+}
+
+.forward, .refer {
+  height: 250px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: $blue;
+  text-align: center;
+  .email {
+  background-color: $orange;
+  }
+  h3 {
+    color: white;
+    padding-top: 50px;
   }
 }
 
 .social {
+  .btn-social {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  background-color: $blue;
+  color: white;
+  font-size: 20px;
+  }
+  .social-text {
   text-align: center;
+  }
 }
 
-.forward, .refer {
-  height: 200px;
-  width: 250px;
-  margin: 20px;
-  background-color: blue;
-}
+
+
+
+

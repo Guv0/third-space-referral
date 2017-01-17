@@ -6,9 +6,16 @@
 .square-grey {
   background-color: $grey;
   height: 250px;
-  width: 250px;
+  width: 300px;
   margin: 0 auto;
-  justify-content: center;
+  text-align: center;
+  // font-family: 'Rubik', sans-serif;
+  img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    padding-top: 40px;
+  }
 }
 
 .circle-blue {
@@ -19,22 +26,26 @@
   background-color: $blue;
   text-align: center;
   color: white;
-  margin: 195px 105px;
+  margin: 30px 125px;
   padding-top: 10px;
+  // font-family:'Rubik', sans-serif;
 }
 
-
+.steps {
+  padding: 50px 50px 0 50px;
+}
 
 .step-text{
   font-size: 20px;
   text-align: center;
-  padding-top: 30px;
+  padding: 40px;
+  font-weight: 800;
 }
 
 .referrals {
-  padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 auto;
+  // font-family:'Rubik', sans-serif;
 }
 
 .header {
@@ -42,24 +53,39 @@
   h1 {
   text-align: center;
   color: $blue;
+  font-size: 50px;
+  font-weight: 900;
+  }
+  p {
+    text-align: center;
+    font-size: 24px;
+    padding: 0 200px;
   }
 }
 
 .forward, .refer {
   height: 250px;
-  width: 350px;
-  margin: 0 auto;
+  width: 400px;
+  margin: 0 10px;
   background-color: $blue;
   text-align: center;
   .email {
-  background-color: $orange;
+  padding: 8px;
+  width: 300px;
   }
   h3 {
     color: white;
-    padding: 50px;
+    padding: 40px;
   }
-  .btn {
+  #email {
+    padding-bottom: 14px;
+  }
+  .btn-email {
     background-color: $orange;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 2px;
   }
 }
 
@@ -75,10 +101,31 @@
   }
   .social-text {
   text-align: center;
+  padding: 20px;
+  // font-family: 'Rubik', sans-serif;
   }
 }
 
+.social-icons {
+text-align: center;
+}
 
+.wrapper {
+  background-color: #E3F0FD;
+}
 
+.page {
+  background-color: white;
+  margin: 0 30px 30px 30px;
+  padding-bottom: 50px;
+  z-index: 1001;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+}
 
-
+.container {
+  // margin-right: auto;
+  // margin-left: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}

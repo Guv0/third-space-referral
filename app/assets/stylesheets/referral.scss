@@ -1,0 +1,53 @@
+// Place all the styles related to the referral controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.square-grey {
+  background-color: lightgrey;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.circle-blue {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: lightblue;
+  text-align: center;
+  color: white;
+  margin-top: 145px;
+  margin-left: 75px;
+  padding-top: 10px;
+}
+
+.btn-social {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.step-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+.header {
+  height: 150px;
+  h1 {
+  text-align: center;
+  }
+}
+
+.social {
+  text-align: center;
+}
+
+.forward, .refer {
+  height: 200px;
+  width: 250px;
+  margin: 20px;
+  background-color: blue;
+}

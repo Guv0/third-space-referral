@@ -1,21 +1,19 @@
 class ReferralsController < ApplicationController
-  # before_action :referral_params
 
   def new
-    # @user = User.find(referral_params(:user_id)
-
-    # @referral = Referral.new
+    @referral = Referral.new
   end
 
   def create
     @referral = Referral.new(referral_params)
 
     @referral.save
+    redirect_to referrals_new_path
   end
 
-  # private
+  private
 
-  # def referral_params
-  #   params.require(:referral).permit(:user_id)
-  # end
+  def referral_params
+    params.require(:referral).permit(:email)
+  end
 end

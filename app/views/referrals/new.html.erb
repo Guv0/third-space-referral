@@ -50,6 +50,10 @@
       <div class="col-xs-12 col-sm-5">
         <div class="refer">
           <h3>Use our template to send lots of recommendations quickly:</h3>
+          <%= form_for(@referral) do |f| %>
+            <%= f.text_field :email %>
+            <%= f.submit %>
+          <% end %>
         </div>
       </div>
     </div>

@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Each email entered in the form saves to a database. Usually, each referral would reference a user, however there is no user model as I didn't think this would be expected as part of this task.
 
-Things you may want to cover:
+Given a little more time I could also have implemented a mailing system by which all emails entered for referral would recieve an email from third space. Although I am sure you already have your own mailing system in place.
 
-* Ruby version
+I didn't get time to implement logic to enter more than one email address before submitting.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Styling of all the page content pretty much complete - I would just make small tweeks if more time and obviously the assets such as font etc.
